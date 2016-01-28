@@ -30,7 +30,7 @@ add_sudo_user()
 		/usr/sbin/useradd  ${sudo_User}
 	fi
 
-	/bin/echo "keepc.com" | passwd --stdin ${sudo_User}  && history -c
+	/bin/echo "xxx" | passwd --stdin ${sudo_User}  && history -c
 	sed -i '108a\${sudo_User}    ALL=(ALL)       NOPASSWD: ALL' ${sudo_File}
 }
 
@@ -38,7 +38,7 @@ add_sudo_user()
 resetroot()
 {
 	echo "Rest Password For root"
-	/bin/echo "GwO2kkHe\$gHzjaSy" | passwd --stdin root  && history -c
+	/bin/echo "xxxx" | passwd --stdin root  && history -c
 
 	if sed -n '/PermitRootLogin no/p' ${sshd_File} | grep "PermitRootLogin no" &> /dev/null; then
 		sed -i '/PermitRootLogin no/s/PermitRootLogin no/PermitRootLogin yes/' ${sshd_File}
