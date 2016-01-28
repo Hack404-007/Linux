@@ -30,7 +30,7 @@ add_sudo_user()
 		/usr/sbin/useradd  ${sudo_User}
 	fi
 
-	/bin/echo "keepc.com" | passwd --stdin ${sudo_User}  && history -c
+	/bin/echo "xxx" | passwd --stdin ${sudo_User}  && history -c
 	sed -i '108a\${sudo_User}    ALL=(ALL)       NOPASSWD: ALL' ${sudo_File}
 }
 
@@ -38,7 +38,7 @@ add_sudo_user()
 resetroot()
 {
 	echo "Rest Password For root"
-	/bin/echo "GwO2kkHe\$gHzjaSy" | passwd --stdin root  && history -c
+	/bin/echo "xxx" | passwd --stdin root  && history -c
 
 	if sed -n '/PermitRootLogin no/p' ${sshd_File} | grep "PermitRootLogin no" &> /dev/null; then
 		sed -i '/PermitRootLogin no/s/PermitRootLogin no/PermitRootLogin yes/' ${sshd_File}
@@ -86,7 +86,7 @@ update_openssl_source()
 	yum install -y zlib
 	echo "下载源码包"
 
-	wget http://10.10.16.198:8889/openssl/openssl-1.0.2e.tar.gz
+	wget http://ip/openssl/openssl-1.0.2e.tar.gz
 	tar zxvf openssl-1.0.2e.tar.gz
 	cd openssl-1.0.2e
 	./config shared zlib
