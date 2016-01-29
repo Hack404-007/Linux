@@ -1,7 +1,5 @@
 #/bin/bash
 #install redis
-#author:xiawei
-#date 2014-04-06
 
 info ()
 {
@@ -181,7 +179,7 @@ monitor_redis ()
 {
 
 yum install -y  nc
-wget http://113.31.16.198:8889/redis/monredis_auto.tgz  -P /usr/local/
+wget http://xxxx/redis/monredis_auto.tgz  -P /usr/local/
 
 tar -xvf /usr/local/monredis_auto.tgz -C /usr/local/
 
