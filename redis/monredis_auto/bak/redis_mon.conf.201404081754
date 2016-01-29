@@ -1,0 +1,29 @@
+##配置文件信息。注意目前各配置项间不允许有空格，否则可能无法提取到
+##  最终如果执行的命令为
+## $binrun $conffile 格式启动.如果判断端口有问题且已经ps -ef方式存在对应的配置文件，则忽略
+##  bin文件  |  配置文件    |    别名      |是否重启 | 其它
+/usr/local/redis/redis-16380/bin/redis-server | /usr/local/redis/redis-16380/conf/redis-largecache-16380.conf | redis-largecache-16380 |Y|
+/usr/local/redis/redis-16381/bin/redis-server | /usr/local/redis/redis-16381/conf/redis-largecache-16381.conf | redis-largecache-16381 |Y|
+/usr/local/redis/redis-16382/bin/redis-server | /usr/local/redis/redis-16382/conf/redis-largecache-16382.conf | redis-largecache-16382 |Y|
+/usr/local/redis/redis-16383/bin/redis-server | /usr/local/redis/redis-16383/conf/redis-largecache-16383.conf | redis-largecache-16383 |Y|
+/usr/local/redis/redis-16384/bin/redis-server | /usr/local/redis/redis-16384/conf/redis-largecache-16384.conf | redis-largecache-16384 |Y|
+/usr/local/redis/redis-16385/bin/redis-server | /usr/local/redis/redis-16385/conf/redis-largecache-16385.conf | redis-largecache-16385 |Y|
+/usr/local/redis/redis-16386/bin/redis-server | /usr/local/redis/redis-16386/conf/redis-largecache-16386.conf | redis-largecache-16386 |Y|
+/usr/local/redis/redis-16387/bin/redis-server | /usr/local/redis/redis-16387/conf/redis-largecache-16387.conf | redis-largecache-16387 |Y|
+/usr/local/redis/redis-16388/bin/redis-server | /usr/local/redis/redis-16388/conf/redis-largecache-16388.conf | redis-largecache-16388 |Y|
+/usr/local/redis/redis-16389/bin/redis-server | /usr/local/redis/redis-16389/conf/redis-largecache-16389.conf | redis-largecache-16389 |Y|
+/usr/local/redis/redis-16390/bin/redis-server | /usr/local/redis/redis-16390/conf/redis-largecache-16390.conf | redis-largecache-16390 |Y|
+/usr/local/redis/redis-16391/bin/redis-server | /usr/local/redis/redis-16391/conf/redis-largecache-16391.conf | redis-largecache-16391 |Y|
+/usr/local/redis/redis-16392/bin/redis-server | /usr/local/redis/redis-16392/conf/redis-largecache-16392.conf | redis-largecache-16392 |Y|
+/usr/local/redis/redis-16393/bin/redis-server | /usr/local/redis/redis-16393/conf/redis-largecache-16393.conf | redis-largecache-16393 |Y|
+/usr/local/redis/redis-16394/bin/redis-server | /usr/local/redis/redis-16394/conf/redis-largecache-16394.conf | redis-largecache-16394 |Y|
+/usr/local/redis/redis-16395/bin/redis-server | /usr/local/redis/redis-16395/conf/redis-largecache-16395.conf | redis-largecache-16395 |Y|
+/usr/local/redis/redis-16396/bin/redis-server | /usr/local/redis/redis-16396/conf/redis-largecache-16396.conf | redis-largecache-16396 |Y|
+/usr/local/redis/redis-16397/bin/redis-server | /usr/local/redis/redis-16397/conf/redis-largecache-16397.conf | redis-largecache-16397 |Y|
+/usr/local/redis/redis-16398/bin/redis-server | /usr/local/redis/redis-16398/conf/redis-largecache-16398.conf | redis-largecache-16398 |Y|
+/usr/local/redis/redis-16399/bin/redis-server | /usr/local/redis/redis-16399/conf/redis-largecache-16399.conf | redis-largecache-16399 |Y|
+/usr/local/redis/redis-16400/bin/redis-server | /usr/local/redis/redis-16400/conf/redis-largecache-16400.conf | redis-largecache-16400 |Y|
+/usr/local/redis/redis-16401/bin/redis-server | /usr/local/redis/redis-16401/conf/redis-largecache-16401.conf | redis-largecache-16401 |Y|
+/usr/local/redis/redis-16402/bin/redis-server | /usr/local/redis/redis-16402/conf/redis-largecache-16402.conf | redis-largecache-16402 |Y|
+/usr/local/redis/redis-16403/bin/redis-server | /usr/local/redis/redis-16403/conf/redis-largecache-16403.conf | redis-largecache-16403 |Y|
+/usr/local/redis/redis-16404/bin/redis-server | /usr/local/redis/redis-16404/conf/redis-largecache-16404.conf | redis-largecache-16404 |Y|

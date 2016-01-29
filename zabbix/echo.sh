@@ -1,0 +1,1 @@
+echo -e " UserParameter=sys.tcp.num,grep -w Tcp /proc/net/snmp  |tail -1|awk -F':' '{print $2}'|awk '{print $9}';\n UserParameter=sys.appram.used,/usr/bin/free -m |grep "buffers/cache"|awk -F':' '{print $2}'|awk '{print $1}'; \n UserParameter=sys.mem.total,/usr/bin/free -m |grep -w "Mem"|awk -F':' '{print $2}'|awk '{print $1}' " >>/usr/local/zabbix/etc/zabbix_agentd.conf

@@ -1,0 +1,10 @@
+#
+#
+##add crontab 
+crontab -l -u developer > /tmp/crontab.tmp
+
+echo "" >> /tmp/crontab.tmp
+echo "#tomcat check  add by  jet `date`"  >>  /tmp/crontab.tmp
+echo "*/5 * * * * /data/script/check_tomcat/main_check.sh   >>/data/script/check_tomcat/logs/main_check.log   2>&1" >>  /tmp/crontab.tmp
+
+crontab /tmp/crontab.tmp -u developer && rm -f /tmp/crontab.tmp
