@@ -9,7 +9,7 @@
 
 userName=root
 PORT=3306
-PASS=lEErW39I4HF72
+PASS='xxx'
 Host=localhost
 backup_Dir=/data/backup
 data_Dir=`date +%Y-%m-%d`
