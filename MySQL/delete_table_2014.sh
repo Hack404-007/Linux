@@ -9,7 +9,7 @@
 
 mysql_Exec='/data/soft/mysql-log/bin/mysql'
 mysql_User='root'
-mysql_Pass='mysqldb@ucpass2015'
+mysql_Pass=''
 mysql_Socekt='/tmp/mysql-log.sock'
 opt_Log=$(pwd)/mysql.log
 
